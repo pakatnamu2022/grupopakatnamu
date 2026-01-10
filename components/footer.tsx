@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Facebook, Linkedin, Mail, MapPin } from "lucide-react";
+import { Facebook, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import LineaEticaModal from "./linea-etica";
@@ -154,10 +154,10 @@ export default function Footer() {
                 <Phone className="mr-3 h-5 w-5 text-[#f60404]" />
                 <span>+51 123 456 789</span>
               </li> */}
-              <li className="flex items-start ps-2">
+              {/* <li className="flex items-start ps-2">
                 <Mail className="mr-3 min-h-5 min-w-5" />
-                {/* <span>info@grupopakatnamu.com</span> */}
-              </li>
+                <span>info@grupopakatnamu.com</span>
+              </li> */}
               <LineaEticaModal />
             </ul>
           </motion.div>
