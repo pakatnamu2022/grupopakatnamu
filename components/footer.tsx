@@ -1,19 +1,9 @@
 "use client";
 
-import { BASE_PATH } from "@/lib/config";
 import { motion } from "framer-motion";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Facebook, Linkedin, Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "./ui/button";
 import LineaEticaModal from "./linea-etica";
 
 export default function Footer() {
@@ -166,7 +156,7 @@ export default function Footer() {
               </li> */}
               <li className="flex items-start ps-2">
                 <Mail className="mr-3 min-h-5 min-w-5" />
-                <span>info@grupopakatnamu.com</span>
+                {/* <span>info@grupopakatnamu.com</span> */}
               </li>
               <LineaEticaModal />
             </ul>

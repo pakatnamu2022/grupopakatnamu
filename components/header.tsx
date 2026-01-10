@@ -12,7 +12,7 @@ const navItems = [
   // { name: "Nosotros", href: "/#nosotros" },
   { name: "Novedades", href: "/novedades" },
   // { name: "Contacto", href: "/#contacto" },
-  { name: "Trabaja con Nosotros", href: "/trabaja-con-nosotros" },
+  // { name: "Trabaja con Nosotros", href: "/trabaja-con-nosotros" },
 ];
 
 export default function Header() {
